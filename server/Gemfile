@@ -2,7 +2,7 @@ source 'https://rubygems.org/'
 
 gem 'rake', '~> 13.0', '>= 13.0.6'
 gem 'activerecord', '~> 7.0', '>= 7.0.3.1'
-gem 'sinatra', '~> 2.2', '>= 2.2.2', require: 'sinatra/base'
+gem 'sinatra', '~> 2.2', '>= 2.2.2'
 gem 'sinatra-activerecord', '~> 2.0', '>= 2.0.25', require: false
 gem 'sinatra-contrib', require: false
 gem 'sqlite3', '~> 1.4', '>= 1.4.4'
