@@ -18,11 +18,11 @@ function Featured({ car }) {
             <img
               src={image1}
               alt="..."
-              className="hover:opacity-50 hover:cursor-pointer"
+              className="opacity-90 hover:opacity-100 hover:cursor-pointer"
             />
-            <NavLink to="details" className="relative bottom-20">
-              <Button color="bg-red-900" content="Details" />
-            </NavLink>
+            <div className="absolute right-0 top-0  ">
+              <Button color="bg-red-700" content="Top" disabled="true" />
+            </div>
           </div>
           <ul className="p-2">
             <li className="border-b-2 border-red-900 text-left my-2">
@@ -45,11 +45,11 @@ function Featured({ car }) {
             <img
               src={image1}
               alt="..."
-              className="hover:opacity-50 hover:cursor-pointer"
+              className="opacity-90 hover:opacity-100 hover:cursor-pointer"
             />
-            <NavLink to="details" className="relative bottom-20">
-              <Button color="bg-red-900" content="Details" />
-            </NavLink>
+            <div className="absolute right-0 top-0  ">
+              <Button color="bg-green-700" content="New" disabled="true" />
+            </div>
           </div>
           <ul className="p-2">
             <li className="border-b-2 border-red-900 text-left my-2">
@@ -72,11 +72,11 @@ function Featured({ car }) {
             <img
               src={image1}
               alt="..."
-              className="hover:opacity-50 hover:cursor-pointer"
+              className="opacity-90 hover:opacity-100 hover:cursor-pointer"
             />
-            <NavLink to="details" className="relative bottom-20">
-              <Button color="bg-red-900" content="Details" />
-            </NavLink>
+            <div className="absolute right-0 top-0  ">
+              <Button color="bg-red-700" content="Top" disabled="true" />
+            </div>
           </div>
           <ul className="p-2">
             <li className="border-b-2 border-red-900 text-left my-2">
