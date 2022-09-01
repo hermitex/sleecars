@@ -5,6 +5,7 @@ import Car from "../car/Car";
 import Featured from "../featured/Featured";
 import Hero from "./Hero";
 import Side from "../side/Side";
+import Highlight from "../highlight/Highlight";
 
 function Home() {
   return (
@@ -40,6 +41,7 @@ function Home() {
             </div>
           </div>
         </div>
+        <Highlight />
       </div>
     </div>
   );
