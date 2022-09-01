@@ -2,6 +2,8 @@ import React from "react";
 import Button from "../button/Button";
 import { NavLink } from "react-router-dom";
 import image1 from "./pexels-avinash-patel-544542.jpg";
+import image2 from "./pexels-mike-b-977003.jpg";
+import image3 from "./pexels-jesse-zheng-1213294.jpg";
 
 function Featured({ car }) {
   return (
@@ -54,7 +56,7 @@ function Featured({ car }) {
         <div div className="border-2 relative group">
           <div className="relative">
             <img
-              src={image1}
+              src={image2}
               alt="..."
               className="opacity-90 hover:opacity-100 hover:cursor-pointer"
             />
@@ -92,7 +94,7 @@ function Featured({ car }) {
         <div div className="border-2 relative group">
           <div className="relative">
             <img
-              src={image1}
+              src={image3}
               alt="..."
               className="opacity-90 hover:opacity-100 hover:cursor-pointer"
             />
