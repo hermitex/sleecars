@@ -14,161 +14,161 @@ function Car({ car }) {
           </li>
         </ul>
         <div className="bg-white-900  grid grid-cols-3 gap-4">
-          <div className="w-62 border-2">
+          <div className="w-62 border-2 group cursor-pointer">
             <div className="relative">
               <img
                 src={image1}
                 alt="..."
-                className="hover:opacity-50 hover:cursor-pointer"
+                className="group-hover:opacity-50 group-hover:cursor-pointer"
               />
-              <NavLink to="details" className="relative bottom-20">
+              <NavLink to="details" className="absolute bottom-10 opacity-0 left-1 right-1  group-hover:opacity-95 transition duration-150 ease-in-out ">
                 <Button color="bg-red-900" content="Details" />
               </NavLink>
             </div>
             <ul className="p-2">
-              <li className="border-b-2 border-red-900 text-left my-2">
+              <li className="border-b-2 border-gray-300 text-left my-2">
                 Nissan Patrol 2013
               </li>
-              <li className="border-b-2 border-red-900">
+              <li className="border-b-2 border-gray-300 my-2">
                 <ul className="flex justify-between  my-2">
                   <li>1.4i TS 5Dr</li>
                   <li>23000 Miles</li>
                 </ul>
               </li>
-              <li className="text-red-900 border-b-2 border-red-900 text-left  my-2">
+              <li className="text-red-900 border-b-2 border-gray-300 text-left  my-2">
                 $15000
               </li>
             </ul>
           </div>
 
-          <div div className="w-62 border-2">
+           <div className="w-62 border-2 group cursor-pointer">
             <div className="relative">
               <img
                 src={image1}
                 alt="..."
-                className="hover:opacity-50 hover:cursor-pointer"
+                className="group-hover:opacity-50 group-hover:cursor-pointer"
               />
-              <NavLink to="details" className="relative bottom-20">
+              <NavLink to="details" className="absolute bottom-10 opacity-0 left-1 right-1  group-hover:opacity-95 transition duration-150 ease-in-out ">
                 <Button color="bg-red-900" content="Details" />
               </NavLink>
             </div>
             <ul className="p-2">
-              <li className="border-b-2 border-red-900 text-left my-2">
+              <li className="border-b-2 border-gray-300 text-left my-2">
                 Nissan Patrol 2013
               </li>
-              <li className="border-b-2 border-red-900">
+              <li className="border-b-2 border-gray-300 my">
                 <ul className="flex justify-between  my-2">
                   <li>1.4i TS 5Dr</li>
                   <li>23000 Miles</li>
                 </ul>
               </li>
-              <li className="text-red-900 border-b-2 border-red-900 text-left  my-2">
+              <li className="text-red-900 border-b-2 border-gray-300 text-left  my-2">
                 $15000
               </li>
             </ul>
           </div>
 
-          <div div className="w-62 border-2">
+           <div className="w-62 border-2 group cursor-pointer">
             <div className="relative">
               <img
                 src={image1}
                 alt="..."
-                className="hover:opacity-50 hover:cursor-pointer"
+                className="group-hover:opacity-50 group-hover:cursor-pointer"
               />
-              <NavLink to="details" className="relative bottom-20">
+              <NavLink to="details" className="absolute bottom-10 opacity-0 left-1 right-1  group-hover:opacity-95 transition duration-150 ease-in-out ">
                 <Button color="bg-red-900" content="Details" />
               </NavLink>
             </div>
             <ul className="p-2">
-              <li className="border-b-2 border-red-900 text-left my-2">
+              <li className="border-b-2 border-gray-300 text-left my-2">
                 Nissan Patrol 2013
               </li>
-              <li className="border-b-2 border-red-900">
+              <li className="border-b-2 border-gray-300 my">
                 <ul className="flex justify-between  my-2">
                   <li>1.4i TS 5Dr</li>
                   <li>23000 Miles</li>
                 </ul>
               </li>
-              <li className="text-red-900 border-b-2 border-red-900 text-left  my-2">
+              <li className="text-red-900 border-b-2 border-gray-300 text-left  my-2">
                 $15000
               </li>
             </ul>
           </div>
 
-          <div div className="w-62 border-2">
+           <div className="w-62 border-2 group cursor-pointer">
             <div className="relative">
               <img
                 src={image1}
                 alt="..."
-                className="hover:opacity-50 hover:cursor-pointer"
+                className="group-hover:opacity-50 group-hover:cursor-pointer"
               />
-              <NavLink to="details" className="relative bottom-20">
+              <NavLink to="details" className="absolute bottom-10 opacity-0 left-1 right-1  group-hover:opacity-95 transition duration-150 ease-in-out ">
                 <Button color="bg-red-900" content="Details" />
               </NavLink>
             </div>
             <ul className="p-2">
-              <li className="border-b-2 border-red-900 text-left my-2">
+              <li className="border-b-2 border-gray-300 text-left my-2">
                 Nissan Patrol 2013
               </li>
-              <li className="border-b-2 border-red-900">
+              <li className="border-b-2 border-gray-300 my">
                 <ul className="flex justify-between  my-2">
                   <li>1.4i TS 5Dr</li>
                   <li>23000 Miles</li>
                 </ul>
               </li>
-              <li className="text-red-900 border-b-2 border-red-900 text-left  my-2">
+              <li className="text-red-900 border-b-2 border-gray-300 text-left  my-2">
                 $15000
               </li>
             </ul>
           </div>
-          <div div className="w-62 border-2">
+           <div className="w-62 border-2 group cursor-pointer">
             <div className="relative">
               <img
                 src={image1}
                 alt="..."
-                className="hover:opacity-50 hover:cursor-pointer"
+                className="group-hover:opacity-50 group-hover:cursor-pointer"
               />
-              <NavLink to="details" className="relative bottom-20">
+              <NavLink to="details" className="absolute bottom-10 opacity-0 left-1 right-1  group-hover:opacity-95 transition duration-150 ease-in-out ">
                 <Button color="bg-red-900" content="Details" />
               </NavLink>
             </div>
             <ul className="p-2">
-              <li className="border-b-2 border-red-900 text-left my-2">
+              <li className="border-b-2 border-gray-300 text-left my-2">
                 Nissan Patrol 2013
               </li>
-              <li className="border-b-2 border-red-900">
+              <li className="border-b-2 border-gray-300 my">
                 <ul className="flex justify-between  my-2">
                   <li>1.4i TS 5Dr</li>
                   <li>23000 Miles</li>
                 </ul>
               </li>
-              <li className="text-red-900 border-b-2 border-red-900 text-left  my-2">
+              <li className="text-red-900 border-b-2 border-gray-300 text-left  my-2">
                 $15000
               </li>
             </ul>
           </div>
-          <div div className="w-62 border-2">
+           <div className="w-62 border-2 group cursor-pointer">
             <div className="relative">
               <img
                 src={image1}
                 alt="..."
-                className="hover:opacity-50 hover:cursor-pointer"
+                className="group-hover:opacity-50 group-hover:cursor-pointer"
               />
-              <NavLink to="details" className="relative bottom-20">
+              <NavLink to="details" className="absolute bottom-10 opacity-0 left-1 right-1  group-hover:opacity-95 transition duration-150 ease-in-out ">
                 <Button color="bg-red-900" content="Details" />
               </NavLink>
             </div>
             <ul className="p-2">
-              <li className="border-b-2 border-red-900 text-left my-2">
+              <li className="border-b-2 border-gray-300 text-left my-2">
                 Nissan Patrol 2013
               </li>
-              <li className="border-b-2 border-red-900">
+              <li className="border-b-2 border-gray-300 my">
                 <ul className="flex justify-between  my-2">
                   <li>1.4i TS 5Dr</li>
                   <li>23000 Miles</li>
                 </ul>
               </li>
-              <li className="text-red-900 border-b-2 border-red-900 text-left  my-2">
+              <li className="text-red-900 border-b-2 border-gray-300 text-left  my-2">
                 $15000
               </li>
             </ul>

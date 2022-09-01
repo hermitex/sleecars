@@ -1,10 +1,10 @@
 ENV['RACK_ENV'] = 'development'
-require 'dotenv'
+# require 'dotenv'
 require 'bundler/setup'
-require 'rake'
+# require 'rake'
 
-Dotenv.load
+# Dotenv.load
 
 Bundler.require(:default, ENV['RACK_ENV'])
 
-require_all 'app/'
+require_all 'app'

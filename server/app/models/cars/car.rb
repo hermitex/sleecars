@@ -1,3 +1,3 @@
-class Car < ActiveRecord::Base
+class Car 
 end
 
