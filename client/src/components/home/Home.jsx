@@ -36,19 +36,7 @@ function Home() {
         <div className="px-4">
           <TopCar />
           <div>
-            {/* <ul className="flex justify-between py-7 px-5">
-              <li className="text-2xl font-light text-gray-500">
-                Latest <span className="font-bold text-neutral-800">Cars</span>
-              </li>
-
-              <li className="text-2xl font-light text-gray-500 uppercase">
-                Find{" "}
-                <span className="font-bold text-neutral-800">
-                  your new vehicle
-                </span>
-              </li>
-            </ul> */}
-            <div className="flex gap-2">
+            <div className="flex flex-row justify-between gap-2">
               <Car />
               <Side />
             </div>
