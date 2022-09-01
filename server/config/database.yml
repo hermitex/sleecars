@@ -1,7 +1,11 @@
-development:
+default: &default
   adapter: sqlite3
+  timeout: 3000
+
+development:
+  <<: *default
   database: db/development.sqlite3
 
-test: sqlite3
-  adapter: sqlite3
-  database: db/test.sqlite3
+production:
+  <<: *default
+  database: db/production.sqlite3

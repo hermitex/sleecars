@@ -1,8 +1,6 @@
-ENV['RACK_ENV'] = 'test'
+ENV['RACK_ENV'] = 'development'
 require_relative "../config/environment.rb"
 require "sinatra/activerecord/rake"
-
-# server/config/environment.rb
 
 RSpec.configure do |config|
   # Database setup
