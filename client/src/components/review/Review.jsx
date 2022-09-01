@@ -30,6 +30,13 @@ const reviews = [
     author: "Aldous Huxley",
     date: new Date().toDateString(),
   },
+  {
+    id: 4,
+    review:
+      "Words can be like X-rays, if you use them properly—they'll go through anything. You read and you're pierced.",
+    author: "Aldous Huxley",
+    date: new Date().toDateString(),
+  },
 ];
 
 function Review() {
@@ -45,13 +52,8 @@ function Review() {
   }, []);
 
   function updateReview() {
-    if (review === reviews.length - 1) {
-      const timeId = setTimeout(() => {
-        setReview(0);
-      }, 4000);
-      return () => {
-        clearTimeout(timeId);
-      };
+    if (review === reviews.length - 1) {      
+        setReview(0);     
     }
   }
 
