@@ -13,7 +13,7 @@ function Featured({ car }) {
       </ul>
 
       <div className="bg-white-900  flex justify-evenly gap-2">
-        <div className="border-2">
+        <div className="border-2 relative group">
           <div className="relative">
             <img
               src={image1}
@@ -24,23 +24,34 @@ function Featured({ car }) {
               <Button color="bg-red-700" content="Top" disabled="true" />
             </div>
           </div>
-          <ul className="p-2">
-            <li className="border-b-2 border-red-900 text-left my-2">
-              Nissan Patrol 2013
-            </li>
-            <li className="border-b-2 border-red-900">
-              <ul className="flex justify-between  my-2">
-                <li>1.4i TS 5Dr</li>
-                <li>23000 Miles</li>
+          <ul className="p-2 absolute top-0 bg-slate-400 opacity-0 group-hover:opacity-95">
+            <li className=" text-left font-semibold">Nissan Patrol 2013</li>
+            <li className="text-left font-bold">$15000</li>
+
+            <li className="mb-1">
+              <ul className="flex justify-between flex-col  my-2 text-sm text-left">
+                <li className="hover:text-blue-600 border-b-2 my-1 border-gray-300">
+                  <NavLink to="details">
+                    More info <ion-icon name="arrow-dropright"></ion-icon>
+                  </NavLink>
+                </li>
+                <li className="hover:text-blue-600 border-b-2 my-1 border-gray-300">
+                  <NavLink to="details">
+                    Add to wish list{" "}
+                    <ion-icon name="arrow-dropright"></ion-icon>
+                  </NavLink>
+                </li>
+                <li className="hover:text-blue-600 border-b-2 my-1 border-gray-300">
+                  <NavLink to="details">
+                    Add to compare <ion-icon name="arrow-dropright"></ion-icon>
+                  </NavLink>
+                </li>
               </ul>
-            </li>
-            <li className="text-red-900 border-b-2 border-red-900 text-left  my-2">
-              $15000
             </li>
           </ul>
         </div>
 
-        <div div className="border-2">
+        <div div className="border-2 relative group">
           <div className="relative">
             <img
               src={image1}
@@ -51,23 +62,34 @@ function Featured({ car }) {
               <Button color="bg-green-700" content="New" disabled="true" />
             </div>
           </div>
-          <ul className="p-2">
-            <li className="border-b-2 border-red-900 text-left my-2">
-              Nissan Patrol 2013
-            </li>
-            <li className="border-b-2 border-red-900">
-              <ul className="flex justify-between  my-2">
-                <li>1.4i TS 5Dr</li>
-                <li>23000 Miles</li>
+          <ul className="p-2 absolute top-0 bg-slate-400 opacity-0 group-hover:opacity-95">
+            <li className=" text-left font-semibold">Nissan Patrol 2013</li>
+            <li className="text-left font-bold">$15000</li>
+
+            <li className="mb-1">
+              <ul className="flex justify-between flex-col  my-2 text-sm text-left">
+                <li className="hover:text-blue-600 border-b-2 my-1 border-gray-300">
+                  <NavLink to="details">
+                    More info <ion-icon name="arrow-dropright"></ion-icon>
+                  </NavLink>
+                </li>
+                <li className="hover:text-blue-600 border-b-2 my-1 border-gray-300">
+                  <NavLink to="details">
+                    Add to wish list{" "}
+                    <ion-icon name="arrow-dropright"></ion-icon>
+                  </NavLink>
+                </li>
+                <li className="hover:text-blue-600 border-b-2 my-1 border-gray-300">
+                  <NavLink to="details">
+                    Add to compare <ion-icon name="arrow-dropright"></ion-icon>
+                  </NavLink>
+                </li>
               </ul>
-            </li>
-            <li className="text-red-900 border-b-2 border-red-900 text-left  my-2">
-              $15000
             </li>
           </ul>
         </div>
 
-        <div div className="border-2">
+        <div div className="border-2 relative group">
           <div className="relative">
             <img
               src={image1}
@@ -78,18 +100,29 @@ function Featured({ car }) {
               <Button color="bg-red-700" content="Top" disabled="true" />
             </div>
           </div>
-          <ul className="p-2">
-            <li className="border-b-2 border-red-900 text-left my-2">
-              Nissan Patrol 2013
-            </li>
-            <li className="border-b-2 border-red-900">
-              <ul className="flex justify-between  my-2">
-                <li>1.4i TS 5Dr</li>
-                <li>23000 Miles</li>
+          <ul className="p-2 absolute top-0 bg-slate-400 opacity-0 group-hover:opacity-95">
+            <li className=" text-left font-semibold">Nissan Patrol 2013</li>
+            <li className="text-left font-bold">$15000</li>
+
+            <li className="mb-1">
+              <ul className="flex justify-between flex-col  my-2 text-sm text-left">
+                <li className="hover:text-blue-600 border-b-2 my-1 border-gray-300">
+                  <NavLink to="details">
+                    More info <ion-icon name="arrow-dropright"></ion-icon>
+                  </NavLink>
+                </li>
+                <li className="hover:text-blue-600 border-b-2 my-1 border-gray-300">
+                  <NavLink to="details">
+                    Add to wish list{" "}
+                    <ion-icon name="arrow-dropright"></ion-icon>
+                  </NavLink>
+                </li>
+                <li className="hover:text-blue-600 border-b-2 my-1 border-gray-300">
+                  <NavLink to="details">
+                    Add to compare <ion-icon name="arrow-dropright"></ion-icon>
+                  </NavLink>
+                </li>
               </ul>
-            </li>
-            <li className="text-red-900 border-b-2 border-red-900 text-left  my-2">
-              $15000
             </li>
           </ul>
         </div>
