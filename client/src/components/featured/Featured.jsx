@@ -3,7 +3,7 @@ import Button from "../button/Button";
 import { NavLink } from "react-router-dom";
 import image1 from "./pexels-avinash-patel-544542.jpg";
 
-function TopCar({ car }) {
+function Featured({ car }) {
   return (
     <>
       <ul className="flex justify-between my-3 py-7 px-5">
@@ -12,8 +12,8 @@ function TopCar({ car }) {
         </li>
       </ul>
 
-      <div className="bg-white-900  grid grid-cols-3 gap-x-0">
-        <div className="w-60 border-2">
+      <div className="bg-white-900  flex justify-evenly gap-2">
+        <div className="border-2">
           <div className="relative">
             <img
               src={image1}
@@ -40,7 +40,7 @@ function TopCar({ car }) {
           </ul>
         </div>
 
-        <div div className="w-60 border-2">
+        <div div className="border-2">
           <div className="relative">
             <img
               src={image1}
@@ -67,7 +67,7 @@ function TopCar({ car }) {
           </ul>
         </div>
 
-        <div div className="w-60 border-2">
+        <div div className="border-2">
           <div className="relative">
             <img
               src={image1}
@@ -98,4 +98,4 @@ function TopCar({ car }) {
   );
 }
 
-export default TopCar;
+export default Featured;

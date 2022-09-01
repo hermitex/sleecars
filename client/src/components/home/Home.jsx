@@ -2,9 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import Button from "../button/Button";
 import Car from "../car/Car";
-import Review from "../review/Review";
-import Search from "../../search/Search";
-import TopCar from "../top-car/TopCar";
+import Featured from "../featured/Featured";
 import Hero from "./Hero";
 import Side from "../side/Side";
 
@@ -12,7 +10,7 @@ function Home() {
   return (
     <div className="">
       <Hero />
-      <div className="mx-24 rounded border-2 border-gray-200">
+      <div className="mx-72 rounded border-2 border-gray-200 ">
         <ul className="flex justify-between bg-gray-200 py-7 px-5">
           <li className="text-2xl font-light text-gray-500">
             Looking for a new vehicle?{" "}
@@ -34,9 +32,9 @@ function Home() {
           </li>
         </ul>
         <div className="px-4">
-          <TopCar />
+          <Featured />
           <div>
-            <div className="flex flex-row justify-between gap-2">
+            <div className="flex flex-row justify-between gap-4">
               <Car />
               <Side />
             </div>

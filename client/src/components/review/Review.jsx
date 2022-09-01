@@ -2,7 +2,7 @@ import React from "react";
 
 function Review() {
   return (
-    <>
+    <div className="w-72">
       <ul className="flex justify-between my-3 py-3 px-5">
         <li className="text-2xl font-light text-gray-500">
           Customer <span className="font-bold text-neutral-800">Reviews</span>
@@ -25,7 +25,7 @@ function Review() {
           <figcaption className="text-red-900 my-2">—Aldous Huxley</figcaption>
         </figure>
       </fieldset>
-    </>
+    </div>
   );
 }
 

@@ -1,9 +1,10 @@
 import React from "react";
-import Button from "../components/button/Button";
+import Button from "../button/Button";
+
 
 function Search() {
   return (
-    <div className="mb-3">
+    <div className="mb-3 w-72">
       <ul className="flex justify-between py-7 px-5">
         <li className="text-1xl font-light text-gray-500 uppercase mb-2">
           Find{" "}

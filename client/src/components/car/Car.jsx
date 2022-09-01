@@ -2,7 +2,7 @@ import React from "react";
 import Button from "../button/Button";
 import { NavLink } from "react-router-dom";
 import image1 from "./pexels-avinash-patel-544542.jpg";
-import Search from "../../search/Search";
+
 
 function Car({ car }) {
   return (
@@ -13,8 +13,8 @@ function Car({ car }) {
             Latest <span className="font-bold text-neutral-800">Cars</span>
           </li>
         </ul>
-        <div className="bg-white-900  grid grid-cols-3 gap-2">
-          <div className="w-64 border-2">
+        <div className="bg-white-900  grid grid-cols-3 gap-4">
+          <div className="w-62 border-2">
             <div className="relative">
               <img
                 src={image1}
@@ -41,7 +41,7 @@ function Car({ car }) {
             </ul>
           </div>
 
-          <div div className="w-64 border-2">
+          <div div className="w-62 border-2">
             <div className="relative">
               <img
                 src={image1}
@@ -68,7 +68,7 @@ function Car({ car }) {
             </ul>
           </div>
 
-          <div div className="w-64 border-2">
+          <div div className="w-62 border-2">
             <div className="relative">
               <img
                 src={image1}
@@ -95,7 +95,7 @@ function Car({ car }) {
             </ul>
           </div>
 
-          <div div className="w-64 border-2">
+          <div div className="w-62 border-2">
             <div className="relative">
               <img
                 src={image1}
@@ -121,7 +121,7 @@ function Car({ car }) {
               </li>
             </ul>
           </div>
-          <div div className="w-64 border-2">
+          <div div className="w-62 border-2">
             <div className="relative">
               <img
                 src={image1}
@@ -147,7 +147,7 @@ function Car({ car }) {
               </li>
             </ul>
           </div>
-          <div div className="w-64 border-2">
+          <div div className="w-62 border-2">
             <div className="relative">
               <img
                 src={image1}
