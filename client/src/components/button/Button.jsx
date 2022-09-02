@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
 function Button({
-  color = "bg-red-900",
-  content = "Buy Now",
+  color = 'bg-red-900',
+  content = 'Buy Now',
   width,
   disabled,
 }) {

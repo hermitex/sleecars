@@ -1,40 +1,40 @@
-import React, { useRef, useState } from "react";
-import { useEffect } from "react";
+/* eslint-disable react/jsx-one-expression-per-line */
+import React, { useState, useEffect } from 'react';
 
 const reviews = [
   {
     id: 0,
     review:
       "Words can be like X-rays, if you use them properly—they'll go through anything. You read and you're pierced.",
-    author: "Test",
+    author: 'Test',
     date: new Date().toDateString(),
   },
   {
     id: 1,
     review:
       "Words can be like X-rays, if you use them properly—they'll go through anything. You read and you're pierced.",
-    author: "Aldous Huxley",
+    author: 'Aldous Huxley',
     date: new Date().toDateString(),
   },
   {
     id: 2,
     review:
       "Words can be like X-rays, if you use them properly—they'll go through anything. You read and you're pierced.",
-    author: "Aldous Huxley",
+    author: 'Aldous Huxley',
     date: new Date().toDateString(),
   },
   {
     id: 3,
     review:
       "Words can be like X-rays, if you use them properly—they'll go through anything. You read and you're pierced.",
-    author: "Aldous Huxley",
+    author: 'Aldous Huxley',
     date: new Date().toDateString(),
   },
   {
     id: 4,
     review:
       "Words can be like X-rays, if you use them properly—they'll go through anything. You read and you're pierced.",
-    author: "Aldous Huxley",
+    author: 'Aldous Huxley',
     date: new Date().toDateString(),
   },
 ];
@@ -44,6 +44,7 @@ function Review() {
 
   useEffect(() => {
     const intId = setInterval(() => {
+      // eslint-disable-next-line no-shadow
       setReview((review) => review + 1);
     }, 4000);
     return () => {
@@ -52,8 +53,8 @@ function Review() {
   }, []);
 
   function updateReview() {
-    if (review === reviews.length - 1) {      
-        setReview(0);     
+    if (review === reviews.length - 1) {
+      setReview(0);
     }
   }
 
@@ -70,22 +71,24 @@ function Review() {
         <legend className="flex justify-between">
           <div
             className={`h-3 w-3 bg-${
-              review == 0 ? "red" : "gray"
+              review === 0 ? 'red' : 'gray'
             }-600 rounded mr-1`}
-          ></div>
+          />
           <div
             className={`h-3 w-3 bg-${
-              review == 1 ? "red" : "gray"
+              review === 1 ? 'red' : 'gray'
             }-600 rounded mr-1`}
-          ></div>
+          />
           <div
             className={`h-3 w-3 bg-${
-              review == 2 ? "red" : "gray"
+              review === 2 ? 'red' : 'gray'
             }-600 rounded mr-1`}
-          ></div>
+          />
           <div
-            className={`h-3 w-3 bg-${review == 3 ? "red" : "gray"}-600 rounded`}
-          ></div>
+            className={`h-3 w-3 bg-${
+              review === 3 ? 'red' : 'gray'
+            }-600 rounded`}
+          />
         </legend>
         <figure>
           <blockquote cite="">

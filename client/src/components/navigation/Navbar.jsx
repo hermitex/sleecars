@@ -1,10 +1,11 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
+/* eslint-disable react/jsx-one-expression-per-line */
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 function Navbar() {
-  let activeStyle = {
-    textDecoration: "underline",
-    color: "blue",
+  const activeStyle = {
+    textDecoration: 'underline',
+    color: 'blue',
   };
 
   return (
@@ -13,13 +14,19 @@ function Navbar() {
         <ul className="flex justify-between">
           <li>
             Welcome visitor! You can <span className="mx-0.1" />
-            <NavLink to="/login" className="text-blue-900 font-bold">
+            <NavLink
+              to="/login"
+              className="text-blue-900 font-bold"
+            >
               Login
             </NavLink>
             <span className="mx-0.5" />
             or
             <span className="mx-0.5" />
-            <NavLink to="/signup" className="text-blue-900 font-bold">
+            <NavLink
+              to="/signup"
+              className="text-blue-900 font-bold"
+            >
               Signup
             </NavLink>
           </li>
@@ -30,7 +37,7 @@ function Navbar() {
                 href="tel:+254797165741"
                 className="hover:text-red-400 hover:bg-blue-900 hover:p-2"
               >
-                <ion-icon name="call"></ion-icon> +254 797 165 741
+                <ion-icon name="call" /> +254 797 165 741
               </a>
             </address>
           </li>
@@ -53,7 +60,7 @@ function Navbar() {
               className="py-1 rounded relative h-9 text-neutral-900 p-2"
             />
             <span className="bg-blue-900 py-1 px-3 absolute right-10 rounded h-9 cursor-pointer">
-              <ion-icon name="search"></ion-icon>
+              <ion-icon name="search" />
             </span>
           </li>
         </ul>

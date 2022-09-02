@@ -11,11 +11,11 @@ function DealersHighlight() {
       </ul>
       <ul className="flex gap-4">
         <li className="flex flex-row  text-yellow-500">
-          <ion-icon name="star"></ion-icon>
-          <ion-icon name="star"></ion-icon>
-          <ion-icon name="star"></ion-icon>
-          <ion-icon name="star"></ion-icon>
-          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star" />
+          <ion-icon name="star" />
+          <ion-icon name="star" />
+          <ion-icon name="star" />
+          <ion-icon name="star" />
         </li>
         <li>
           <NavLink to="profile" className="hover:text-blue-800">
@@ -27,11 +27,11 @@ function DealersHighlight() {
 
       <ul className="flex gap-4">
         <li className="flex flex-row  text-yellow-500">
-          <ion-icon name="star"></ion-icon>
-          <ion-icon name="star"></ion-icon>
-          <ion-icon name="star"></ion-icon>
-          <ion-icon name="star"></ion-icon>
-          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star" />
+          <ion-icon name="star" />
+          <ion-icon name="star" />
+          <ion-icon name="star" />
+          <ion-icon name="star" />
         </li>
         <li>
           <NavLink to="profile" className="hover:text-blue-800">
@@ -43,11 +43,11 @@ function DealersHighlight() {
 
       <ul className="flex gap-4">
         <li className="flex flex-row  text-yellow-500">
-          <ion-icon name="star"></ion-icon>
-          <ion-icon name="star"></ion-icon>
-          <ion-icon name="star"></ion-icon>
-          <ion-icon name="star"></ion-icon>
-          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star" />
+          <ion-icon name="star" />
+          <ion-icon name="star" />
+          <ion-icon name="star" />
+          <ion-icon name="star" />
         </li>
         <li>
           <NavLink to="profile" className="hover:text-blue-800">
@@ -59,11 +59,11 @@ function DealersHighlight() {
 
       <ul className="flex gap-4">
         <li className="flex flex-row  text-yellow-500">
-          <ion-icon name="star"></ion-icon>
-          <ion-icon name="star"></ion-icon>
-          <ion-icon name="star"></ion-icon>
-          <ion-icon name="star"></ion-icon>
-          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star" />
+          <ion-icon name="star" />
+          <ion-icon name="star" />
+          <ion-icon name="star" />
+          <ion-icon name="star" />
         </li>
         <li>
           <NavLink to="profile" className="hover:text-blue-800">
@@ -75,11 +75,11 @@ function DealersHighlight() {
 
       <ul className="flex gap-4">
         <li className="flex flex-row  text-yellow-500">
-          <ion-icon name="star"></ion-icon>
-          <ion-icon name="star"></ion-icon>
-          <ion-icon name="star"></ion-icon>
-          <ion-icon name="star"></ion-icon>
-          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star" />
+          <ion-icon name="star" />
+          <ion-icon name="star" />
+          <ion-icon name="star" />
+          <ion-icon name="star" />
         </li>
         <li>
           <NavLink to="profile" className="hover:text-blue-800">
@@ -91,11 +91,11 @@ function DealersHighlight() {
 
       <ul className="flex gap-4">
         <li className="flex flex-row  text-yellow-500">
-          <ion-icon name="star"></ion-icon>
-          <ion-icon name="star"></ion-icon>
-          <ion-icon name="star"></ion-icon>
-          <ion-icon name="star"></ion-icon>
-          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star" />
+          <ion-icon name="star" />
+          <ion-icon name="star" />
+          <ion-icon name="star" />
+          <ion-icon name="star" />
         </li>
         <li>
           <NavLink to="profile" className="hover:text-blue-800">
