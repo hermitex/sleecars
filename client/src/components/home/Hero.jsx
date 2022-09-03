@@ -1,3 +1,4 @@
+/* eslint-disable no-shadow */
 import React, { useState, useEffect } from 'react';
 
 import image1 from './pexels-aaron-curtis-119435.jpg';
@@ -24,6 +25,15 @@ function Hero() {
   function updateHeroImage() {
     if (image === images.length - 1) {
       setImage(0);
+    }
+  }
+
+  function handleClick(event) {
+    const { id } = event.target;
+    if (id === 'next' && image < images.length - 1) {
+      setImage((image) => image - 1);
+    } else {
+      setImage((image) => image + 1);
     }
   }
 
@@ -67,14 +77,16 @@ function Hero() {
           <li className="flex flex-row">
             <button
               className="prev hover:cursor-pointer hover:bg-blue-800 rounded-sm text-2xl text-center text-blue-700 hover:text-white bg-gray-900 mr-2 px-3"
-              onClick={updateHeroImage}
+              id="prev"
+              onClick={handleClick}
               type="submit"
             >
               <ion-icon name="arrow-dropleft" />
             </button>
             <button
               className="next hover:cursor-pointer hover:bg-blue-800 rounded-sm text-2xl text-center text-blue-700 hover:text-white bg-gray-900 px-3"
-              onClick={updateHeroImage}
+              id="next"
+              onClick={handleClick}
               type="submit"
             >
               <ion-icon name="arrow-dropright" />
