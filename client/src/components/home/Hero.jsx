@@ -5,9 +5,10 @@ import image1 from './pexels-aaron-curtis-119435.jpg';
 function Hero() {
   return (
     <div
-      className="container bg-hero-pattern bg-right bg-no-repeat bg-cover p-10"
+      className="container bg-hero-pattern  bg-no-repeat bg-cover mx-auto bg-gray-900"
       style={{
-        height: '95vh',
+        height: '100vh',
+        width: '100vw',
         backgroundImage: `linear-gradient(to right bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url(${image1})`,
       }}
     >
