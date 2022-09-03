@@ -12,7 +12,10 @@ function Home() {
   return (
     <div className="">
       <Hero />
-      <div className="mx-40 rounded border-2 border-gray-200 ">
+      <div
+        className="mx-40 rounded border-2 border-gray-200"
+        style={{ marginTop: '-3rem' }}
+      >
         <ul className="flex justify-between bg-gray-200 py-7 px-5">
           <li className="text-2xl font-light text-gray-500">
             Looking for a new vehicle?{' '}
