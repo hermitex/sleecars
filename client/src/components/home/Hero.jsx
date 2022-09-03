@@ -1,14 +1,40 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 import image1 from './pexels-aaron-curtis-119435.jpg';
+import image2 from './pexels-albin-berlin-905554.jpg';
+import image3 from './pexels-albin-berlin-919073.jpg';
+import image4 from './pexels-jordan-hyde-1383834.jpg';
+import image5 from './pexels-mike-b-93632.jpg';
+
+const images = [image1, image2, image3, image4, image5];
 
 function Hero() {
+  const [image, setImage] = useState(0);
+
+  useEffect(() => {
+    const intId = setInterval(() => {
+      // eslint-disable-next-line no-shadow
+      setImage((image) => image + 1);
+    }, 4000);
+    return () => {
+      clearInterval(intId);
+    };
+  }, []);
+
+  function updateHeroImage() {
+    if (image === images.length - 1) {
+      setImage(0);
+    }
+  }
+
+  updateHeroImage();
+
   return (
     <div
       className="bg-hero-pattern  bg-no-repeat bg-cover mx-auto bg-gray-900 pl-10"
       style={{
         height: '90vh',
-        backgroundImage: `linear-gradient(to right bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url(${image1})`,
+        backgroundImage: `linear-gradient(to right bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url(${images[image]})`,
       }}
     >
       <div className="flex py-10 pr-5">
@@ -39,12 +65,20 @@ function Hero() {
             $26,000
           </li>
           <li className="flex flex-row">
-            <div className="prev hover:cursor-pointer hover:bg-blue-800 rounded-sm text-2xl text-center text-blue-700 hover:text-white bg-gray-900 mr-2 px-3">
+            <button
+              className="prev hover:cursor-pointer hover:bg-blue-800 rounded-sm text-2xl text-center text-blue-700 hover:text-white bg-gray-900 mr-2 px-3"
+              onClick={updateHeroImage}
+              type="submit"
+            >
               <ion-icon name="arrow-dropleft" />
-            </div>
-            <div className="next hover:cursor-pointer hover:bg-blue-800 rounded-sm text-2xl text-center text-blue-700 hover:text-white bg-gray-900 px-3">
+            </button>
+            <button
+              className="next hover:cursor-pointer hover:bg-blue-800 rounded-sm text-2xl text-center text-blue-700 hover:text-white bg-gray-900 px-3"
+              onClick={updateHeroImage}
+              type="submit"
+            >
               <ion-icon name="arrow-dropright" />
-            </div>
+            </button>
           </li>
         </ul>
       </div>
