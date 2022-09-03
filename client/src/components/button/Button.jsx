@@ -10,7 +10,7 @@ function Button({
 }) {
   return (
     <button
-      className={`rounded ${color} px-7 py-2 text-white shadow-inner w-${
+      className={`rounded-sm ${color} px-7 py-2 text-white shadow-inner w-${
         width && width
       }`}
       disabled={disabled}

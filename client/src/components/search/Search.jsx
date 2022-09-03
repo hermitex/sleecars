@@ -5,6 +5,7 @@ import Button from '../button/Button';
 import Hero from '../hero/Hero';
 import Car from '../home/car/Car';
 import Highlight from '../home/highlight/Highlight';
+import Result from '../home/search/Result';
 import Side from '../home/side/Side';
 
 function Search() {
@@ -21,7 +22,7 @@ function Search() {
             id="search"
           >
             <input
-              className="py-2 w-72 rounded-sm px-1"
+              className="py-2 w-72 rounded-sm px-1 placeholder:italic"
               type="text"
               id="search"
               placeholder="Search car by brand, model, year..."
@@ -47,6 +48,7 @@ function Search() {
             />
           </label>
         </form>
+        <Result />
         <div className="px-4">
           <div>
             <div className="flex flex-row justify-between gap-4">
