@@ -2,8 +2,15 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import Button from '../button/Button';
-import image1 from './pexels-avinash-patel-544542.jpg';
+
+import image1 from './pexels-aaron-curtis-119435.jpg';
 import image2 from './pexels-albin-berlin-905554.jpg';
+import image3 from './pexels-albin-berlin-919073.jpg';
+import image4 from './pexels-jordan-hyde-1383834.jpg';
+import image5 from './pexels-mike-b-93632.jpg';
+import image6 from './pexels-avinash-patel-544542.jpg';
+
+// const images = [image1, image2, image3, image4, image5, image5];
 
 function Car() {
   return (
@@ -83,7 +90,7 @@ function Car() {
         <div className="w-62 border-2 group cursor-pointer">
           <div className="relative">
             <img
-              src={image1}
+              src={image3}
               alt="..."
               className="group-hover:opacity-50 group-hover:cursor-pointer"
             />
@@ -116,7 +123,7 @@ function Car() {
         <div className="w-62 border-2 group cursor-pointer">
           <div className="relative">
             <img
-              src={image2}
+              src={image4}
               alt="..."
               className="group-hover:opacity-50 group-hover:cursor-pointer"
             />
@@ -148,7 +155,7 @@ function Car() {
         <div className="w-62 border-2 group cursor-pointer">
           <div className="relative">
             <img
-              src={image1}
+              src={image5}
               alt="..."
               className="group-hover:opacity-50 group-hover:cursor-pointer"
             />
@@ -180,7 +187,7 @@ function Car() {
         <div className="w-62 border-2 group cursor-pointer">
           <div className="relative">
             <img
-              src={image1}
+              src={image6}
               alt="..."
               className="group-hover:opacity-50 group-hover:cursor-pointer"
             />

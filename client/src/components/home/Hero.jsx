@@ -96,27 +96,27 @@ function Hero() {
       </div>
       <div className="flex flex-row justify-center my-2 absolute bottom-0 left-0 right-0">
         <div
-          className={`h-2 w-2 bg-${
+          className={`hover:cursor-pointer hover:bg-blue-600 h-2 w-2 bg-${
             image === 0 ? 'blue' : 'red'
           }-600 rounded mr-1`}
         />
         <div
-          className={`h-2 w-2 bg-${
+          className={`hover:cursor-pointer hover:bg-blue-600 h-2 w-2 bg-${
             image === 1 ? 'blue' : 'red'
           }-600 rounded mr-1`}
         />
         <div
-          className={`h-2 w-2 bg-${
+          className={`hover:cursor-pointer hover:bg-blue-600 h-2 w-2 bg-${
             image === 2 ? 'blue' : 'red'
           }-600 rounded mr-1`}
         />
         <div
-          className={`h-2 w-2 bg-${
+          className={`hover:cursor-pointer hover:bg-blue-600 h-2 w-2 bg-${
             image === 3 ? 'blue' : 'red'
           }-600 rounded mr-1`}
         />
         <div
-          className={`h-2 w-2 bg-${
+          className={`hover:cursor-pointer hover:bg-blue-600 h-2 w-2 bg-${
             image === 4 ? 'blue' : 'red'
           }-600 rounded mr-1`}
         />
