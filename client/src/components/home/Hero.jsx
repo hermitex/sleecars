@@ -6,7 +6,7 @@ import image3 from './pexels-albin-berlin-919073.jpg';
 import image4 from './pexels-jordan-hyde-1383834.jpg';
 import image5 from './pexels-mike-b-93632.jpg';
 
-const images = [image1, image2, image3, image4, image5];
+const images = [image1, image2, image3, image4, image5, image5];
 
 function Hero() {
   const [image, setImage] = useState(0);
@@ -81,6 +81,33 @@ function Hero() {
             </button>
           </li>
         </ul>
+      </div>
+      <div className="flex flex-row justify-center my-2">
+        <div
+          className={`h-2 w-2 bg-${
+            image === 0 ? 'blue' : 'red'
+          }-600 rounded mr-1`}
+        />
+        <div
+          className={`h-2 w-2 bg-${
+            image === 1 ? 'blue' : 'red'
+          }-600 rounded mr-1`}
+        />
+        <div
+          className={`h-2 w-2 bg-${
+            image === 2 ? 'blue' : 'red'
+          }-600 rounded mr-1`}
+        />
+        <div
+          className={`h-2 w-2 bg-${
+            image === 3 ? 'blue' : 'red'
+          }-600 rounded mr-1`}
+        />
+        <div
+          className={`h-2 w-2 bg-${
+            image === 4 ? 'blue' : 'red'
+          }-600 rounded mr-1`}
+        />
       </div>
     </div>
   );
