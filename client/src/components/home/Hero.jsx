@@ -82,7 +82,7 @@ function Hero() {
           </li>
         </ul>
       </div>
-      <div className="flex flex-row justify-center my-2">
+      <div className="flex flex-row justify-center my-2 absolute bottom-0 left-0 right-0">
         <div
           className={`h-2 w-2 bg-${
             image === 0 ? 'blue' : 'red'
