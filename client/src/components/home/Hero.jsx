@@ -39,10 +39,10 @@ function Hero() {
             $26,000
           </li>
           <li className="flex flex-row">
-            <div className="prev hover:cursor-pointer hover:bg-gray-700 rounded-sm text-2xl text-center text-blue-700 hover:text-green-500 bg-gray-900 mr-2 px-3">
+            <div className="prev hover:cursor-pointer hover:bg-blue-800 rounded-sm text-2xl text-center text-blue-700 hover:text-white bg-gray-900 mr-2 px-3">
               <ion-icon name="arrow-dropleft" />
             </div>
-            <div className="next hover:cursor-pointer hover:bg-gray-700 rounded-sm text-2xl text-center text-blue-700 hover:text-green-500 bg-gray-900 px-3">
+            <div className="next hover:cursor-pointer hover:bg-blue-800 rounded-sm text-2xl text-center text-blue-700 hover:text-white bg-gray-900 px-3">
               <ion-icon name="arrow-dropright" />
             </div>
           </li>
