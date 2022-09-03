@@ -13,7 +13,7 @@ function Home() {
     <div className="">
       <Hero />
       <div
-        className="mx-40 rounded border-2 border-gray-200"
+        className="container rounded border-2 border-gray-200 mx-auto"
         style={{ marginTop: '-3rem' }}
       >
         <ul className="flex justify-between bg-gray-200 py-7 px-5">
