@@ -11,6 +11,7 @@ const images = [image1, image2, image3, image4, image5, image5];
 
 function Hero() {
   const [image, setImage] = useState(0);
+  const [iconClass, setIconClass] = useState(null);
 
   useEffect(() => {
     const intId = setInterval(() => {
@@ -37,6 +38,14 @@ function Hero() {
     }
   }
 
+  function handleMouseEnter() {
+    setIconClass('checkmark-circle');
+  }
+
+  function handleMouseLeave() {
+    setIconClass('checkmark-circle-outline');
+  }
+
   updateHeroImage();
 
   return (
@@ -49,21 +58,33 @@ function Hero() {
     >
       <div className="flex py-10 pr-5">
         <ul>
-          <li className="group text-white font-bold drop-shadow-md hover:cursor-pointer hover:bg-slate-800 bg-gray-900 my-2 p-2 rounded-sm text-2xl">
+          <li
+            className="group text-white font-bold drop-shadow-md hover:cursor-pointer hover:bg-slate-800 bg-gray-900 my-2 p-2 rounded-sm text-2xl"
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+          >
             <span className="text-green-900 group-hover:text-green-500 mr-1">
-              <ion-icon name="checkmark-circle-outline" />
+              <ion-icon name={iconClass} />
             </span>
             2012 BMW 1.8XRS Sedan 36000
           </li>
-          <li className="group text-white font-bold drop-shadow-md hover:cursor-pointer hover:bg-slate-800 bg-gray-900 my-2 p-2 rounded-sm text-2xl">
+          <li
+            className="group text-white font-bold drop-shadow-md hover:cursor-pointer hover:bg-slate-800 bg-gray-900 my-2 p-2 rounded-sm text-2xl"
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+          >
             <span className="text-green-900 group-hover:text-green-500 mr-1">
-              <ion-icon name="checkmark-circle-outline" />
+              <ion-icon name={iconClass} />
             </span>
             2012 BMW 1.8XRS Sedan 36000
           </li>
-          <li className="group text-white font-bold drop-shadow-md hover:cursor-pointer hover:bg-slate-800 bg-gray-900 my-2 p-2 rounded-sm text-2xl">
+          <li
+            className="group text-white font-bold drop-shadow-md hover:cursor-pointer hover:bg-slate-800 bg-gray-900 my-2 p-2 rounded-sm text-2xl"
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+          >
             <span className="text-green-900 group-hover:text-green-500 mr-1">
-              <ion-icon name="checkmark-circle-outline" />
+              <ion-icon name={iconClass} />
             </span>
             2012 BMW 1.8XRS Sedan 36000
           </li>
