@@ -31,6 +31,13 @@ function Hero() {
             </span>
             2012 BMW 1.8XRS Sedan 36000
           </li>
+
+          <li
+            className="group text-red-700 font-bold drop-shadow-md hover:cursor-pointer hover:bg-slate-800 bg-gray-900 my-2 p-2 rounded-sm text-2xl"
+            style={{ width: 'fit-content' }}
+          >
+            $26,000
+          </li>
           <li className="flex flex-row">
             <div className="prev hover:cursor-pointer hover:bg-gray-700 rounded-sm text-2xl text-center text-blue-700 hover:text-green-500 bg-gray-900 mr-2 px-3">
               <ion-icon name="arrow-dropleft" />

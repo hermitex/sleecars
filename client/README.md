@@ -1,5 +1,9 @@
 # Getting Started with Create React App
 
+## Home Page
+
+![Home Page](../client/src/assets/images/Sleecars-home.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
