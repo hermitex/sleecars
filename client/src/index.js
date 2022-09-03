@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-filename-extension */
 /* eslint-disable comma-dangle */
 import React from 'react';
 import ReactDOM from 'react-dom/client';

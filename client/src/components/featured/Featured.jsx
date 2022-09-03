@@ -9,8 +9,8 @@ import image3 from './pexels-jesse-zheng-1213294.jpg';
 function Featured() {
   return (
     <>
-      <ul className="flex justify-between my-3 py-7 px-5">
-        <li className="text-2xl font-light text-gray-500">
+      <ul className="flex justify-between my-3 py-7">
+        <li className="text-2xl font-light text-gray-500 uppercase">
           Featured <span className="font-bold text-neutral-800">Cars</span>
         </li>
       </ul>

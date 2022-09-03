@@ -13,21 +13,21 @@ const reviews = [
     id: 1,
     review:
       "Words can be like X-rays, if you use them properly—they'll go through anything. You read and you're pierced.",
-    author: 'Aldous Huxley',
+    author: 'Alice',
     date: new Date().toDateString(),
   },
   {
     id: 2,
     review:
       "Words can be like X-rays, if you use them properly—they'll go through anything. You read and you're pierced.",
-    author: 'Aldous Huxley',
+    author: 'John Doe',
     date: new Date().toDateString(),
   },
   {
     id: 3,
     review:
       "Words can be like X-rays, if you use them properly—they'll go through anything. You read and you're pierced.",
-    author: 'Aldous Huxley',
+    author: 'Jane Doe',
     date: new Date().toDateString(),
   },
   {
@@ -62,8 +62,8 @@ function Review() {
 
   return (
     <div className="w-72">
-      <ul className="flex justify-between my-3 py-3 px-5">
-        <li className="text-2xl font-light text-gray-500">
+      <ul className="flex justify-between my-2">
+        <li className="text-1xl font-light text-gray-500 uppercase">
           Customer <span className="font-bold text-neutral-800">Reviews</span>
         </li>
       </ul>
@@ -92,7 +92,12 @@ function Review() {
         </legend>
         <figure>
           <blockquote cite="">
-            <p>{reviews[review].review}</p>
+            <p>{reviews[review].review}</p>{' '}
+            <div className="flex flex-row justify-center my-2">
+              <div className="h-2 w-2 bg-gray-600 rounded mr-1" />
+              <div className="h-2 w-2 bg-red-600 rounded mr-1" />
+              <div className="h-2 w-2 bg-blue-600 rounded mr-1" />
+            </div>
           </blockquote>
           <figcaption className="text-red-900 my-2">
             — {reviews[review].author}

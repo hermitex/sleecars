@@ -1,14 +1,15 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
-import Button from "../button/Button";
-import image1 from "./pexels-avinash-patel-544542.jpg";
-import image2 from "./pexels-albin-berlin-905554.jpg";
+/* eslint-disable react/jsx-one-expression-per-line */
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import Button from '../button/Button';
+import image1 from './pexels-avinash-patel-544542.jpg';
+import image2 from './pexels-albin-berlin-905554.jpg';
 
-function Car({ car }) {
+function Car() {
   return (
     <div>
-      <ul className="flex justify-between py-7 px-5">
-        <li className="text-2xl font-light text-gray-500">
+      <ul className="flex justify-between py-7">
+        <li className="text-2xl font-light text-gray-500 uppercase">
           Latest <span className="font-bold text-neutral-800">Cars</span>
         </li>
       </ul>
@@ -24,7 +25,10 @@ function Car({ car }) {
               to="details"
               className="absolute bottom-10 opacity-0 left-1 right-1  group-hover:opacity-95 transition duration-150 ease-in-out "
             >
-              <Button color="bg-red-900" content="Details" />
+              <Button
+                color="bg-red-900"
+                content="Details"
+              />
             </NavLink>
           </div>
           <ul className="p-2">
@@ -54,7 +58,10 @@ function Car({ car }) {
               to="details"
               className="absolute bottom-10 opacity-0 left-1 right-1  group-hover:opacity-95 transition duration-150 ease-in-out "
             >
-              <Button color="bg-red-900" content="Details" />
+              <Button
+                color="bg-red-900"
+                content="Details"
+              />
             </NavLink>
           </div>
           <ul className="p-2">
@@ -84,7 +91,10 @@ function Car({ car }) {
               to="details"
               className="absolute bottom-10 opacity-0 left-1 right-1  group-hover:opacity-95 transition duration-150 ease-in-out "
             >
-              <Button color="bg-red-900" content="Details" />
+              <Button
+                color="bg-red-900"
+                content="Details"
+              />
             </NavLink>
           </div>
           <ul className="p-2">
@@ -114,7 +124,10 @@ function Car({ car }) {
               to="details"
               className="absolute bottom-10 opacity-0 left-1 right-1  group-hover:opacity-95 transition duration-150 ease-in-out "
             >
-              <Button color="bg-red-900" content="Details" />
+              <Button
+                color="bg-red-900"
+                content="Details"
+              />
             </NavLink>
           </div>
           <ul className="p-2">
@@ -143,7 +156,10 @@ function Car({ car }) {
               to="details"
               className="absolute bottom-10 opacity-0 left-1 right-1  group-hover:opacity-95 transition duration-150 ease-in-out "
             >
-              <Button color="bg-red-900" content="Details" />
+              <Button
+                color="bg-red-900"
+                content="Details"
+              />
             </NavLink>
           </div>
           <ul className="p-2">
@@ -172,7 +188,10 @@ function Car({ car }) {
               to="details"
               className="absolute bottom-10 opacity-0 left-1 right-1  group-hover:opacity-95 transition duration-150 ease-in-out "
             >
-              <Button color="bg-red-900" content="Details" />
+              <Button
+                color="bg-red-900"
+                content="Details"
+              />
             </NavLink>
           </div>
           <ul className="p-2">

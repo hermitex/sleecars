@@ -1,6 +1,6 @@
-import React from "react";
-import DealersHighlight from "./DealersHighlight";
-import News from "./News";
+import React from 'react';
+import DealersHighlight from './DealersHighlight';
+import News from './News';
 
 function Highlight() {
   return (

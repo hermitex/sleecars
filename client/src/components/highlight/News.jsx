@@ -1,5 +1,6 @@
-import React from "react";
-import NewsHighlight from "./NewsHighlight";
+/* eslint-disable react/jsx-one-expression-per-line */
+import React from 'react';
+import NewsHighlight from './NewsHighlight';
 
 function News() {
   return (
