@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-one-expression-per-line */
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import Button from '../button/Button';
+import Button from '../../button/Button';
 
 import image1 from './pexels-aaron-curtis-119435.jpg';
 import image2 from './pexels-albin-berlin-905554.jpg';

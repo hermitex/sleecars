@@ -1,10 +1,10 @@
 /* eslint-disable react/jsx-one-expression-per-line */
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import Button from '../button/Button';
 import image1 from './pexels-avinash-patel-544542.jpg';
 import image2 from './pexels-mike-b-977003.jpg';
 import image3 from './pexels-jesse-zheng-1213294.jpg';
+import Button from '../../button/Button';
 
 function Featured() {
   return (

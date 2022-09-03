@@ -1,12 +1,13 @@
 /* eslint-disable react/jsx-one-expression-per-line */
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import Button from '../button/Button';
+
 import Car from '../car/Car';
 import Featured from '../featured/Featured';
-import Hero from './Hero';
+import Hero from '../../hero/Hero';
 import Side from '../side/Side';
 import Highlight from '../highlight/Highlight';
+import Button from '../../button/Button';
 
 function Home() {
   return (
