@@ -1,7 +1,6 @@
 /* eslint-disable react/jsx-one-expression-per-line */
 import React from 'react';
-import { NavLink } from 'react-router-dom';
-import Button from '../button/Button';
+import Breadcramps from '../breadcramps/Breadcramps';
 import Hero from '../hero/Hero';
 import Car from '../home/car/Car';
 import Pagination from '../pagination/Pagination';
@@ -21,24 +20,7 @@ function RentCar() {
             <span className="font-bold text-neutral-800">a Car Today!</span>
           </li>
           <li>
-            <ul className="flex justify-between">
-              <li className="mx-2">
-                <NavLink to="sell-car">
-                  <Button
-                    color="bg-blue-700"
-                    content="Sell your car"
-                  />
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="search">
-                  <Button
-                    color="bg-red-700"
-                    content="Search a car"
-                  />
-                </NavLink>
-              </li>
-            </ul>
+            <Breadcramps />
           </li>
         </ul>
         <div className="px-4">
