@@ -4,7 +4,7 @@
 
 ![Home Page](../client/src/assets/images/Sleecars-home.png)
 
-## Home Page
+## Search Page
 
 ![Search Page](../client/src/assets/images/Sleecars-search.png)
 
