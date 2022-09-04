@@ -16,10 +16,10 @@ function AdvancedSearch() {
         className="container rounded border-2 border-gray-200 mx-auto"
         style={{ marginTop: '-3rem' }}
       >
-        <form className="flex justify-evenly bg-gray-200 py-7 px-5">
+        <form className="flex justify-around bg-gray-200 py-7 px-5">
           <label htmlFor="search">
             <input
-              className="py-2 w-72 rounded-sm px-1 placeholder:italic"
+              className="py-2 w-72 rounded-sm px-1 placeholder:italic focused"
               type="text"
               id="search"
               placeholder="Search car by brand, model, year..."
