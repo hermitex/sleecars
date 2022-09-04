@@ -50,6 +50,7 @@ function Navbar() {
             <NavLink
               to="/"
               className="logo text-3xl font-bold text-blue-900 drop-shadow-lg shadow-red-900 italic"
+              style={{ textShadow: '20px 0px 10px rgb(0, 0, 0)' }}
             >
               SLEECARS
             </NavLink>
@@ -57,9 +58,11 @@ function Navbar() {
           <li>
             <input
               type="search"
-              className="py-1 rounded relative h-9 text-neutral-900 p-2"
+              className="py-1 rounded-sm relative h-9 text-neutral-700 p-2 placeholder:italic italic "
+              style={{ border: '1px solid gray', outline: 'none' }}
+              placeholder="Start typing to search..."
             />
-            <span className="bg-blue-900 py-1 px-3 absolute right-10 rounded h-9 cursor-pointer">
+            <span className="bg-blue-900 py-1 px-3 absolute right-10 rounded-sm h-9 cursor-pointer">
               <ion-icon name="search" />
             </span>
           </li>
