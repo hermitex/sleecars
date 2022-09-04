@@ -39,7 +39,10 @@ function AdvancedSearch() {
         <div className="px-4">
           <div>
             <div className="flex flex-row justify-between gap-4">
-              <Car />
+              <Car
+                light="top"
+                dark="picks for you"
+              />
               <Side />
             </div>
           </div>

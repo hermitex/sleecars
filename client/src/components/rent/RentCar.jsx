@@ -1,15 +1,13 @@
 /* eslint-disable react/jsx-one-expression-per-line */
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import Button from '../button/Button';
+import Hero from '../hero/Hero';
+import Car from '../home/car/Car';
+import Pagination from '../pagination/Pagination';
+import Side from '../side/Side';
 
-import Car from '../car/Car';
-import Featured from '../featured/Featured';
-import Hero from '../../hero/Hero';
-import Side from '../../side/Side';
-import Highlight from '../highlight/Highlight';
-import Button from '../../button/Button';
-
-function Home() {
+function RentCar() {
   return (
     <div className="">
       <Hero />
@@ -19,8 +17,8 @@ function Home() {
       >
         <ul className="flex justify-between bg-gray-200 py-7 px-5">
           <li className="text-2xl font-light text-gray-500">
-            Looking for a new vehicle?{' '}
-            <span className="font-bold text-neutral-800">Start now!</span>
+            Rent{' '}
+            <span className="font-bold text-neutral-800">a Car Today!</span>
           </li>
           <li>
             <ul className="flex justify-between">
@@ -44,21 +42,29 @@ function Home() {
           </li>
         </ul>
         <div className="px-4">
-          <Featured />
           <div>
             <div className="flex flex-row justify-between gap-4">
               <Car
-                light="top"
-                dark="brands"
+                light="world's"
+                dark="best brands"
+                cars={9}
+                topBrands={[
+                  'all',
+                  'chevrolet',
+                  'nissan',
+                  'fiat',
+                  'hyundai',
+                  'jaguar',
+                ]}
               />
               <Side />
             </div>
           </div>
         </div>
-        <Highlight />
       </div>
+      <Pagination />
     </div>
   );
 }
 
-export default Home;
+export default RentCar;
