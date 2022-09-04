@@ -1,9 +1,9 @@
 /* eslint-disable react/jsx-one-expression-per-line */
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import Button from '../../button/Button';
+import Button from '../button/Button';
 
-function Search() {
+function SimpleSearch() {
   return (
     <div className="mb-3 w-72">
       <ul className="flex justify-between py-7">
@@ -106,4 +106,4 @@ function Search() {
   );
 }
 
-export default Search;
+export default SimpleSearch;

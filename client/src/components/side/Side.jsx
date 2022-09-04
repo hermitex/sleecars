@@ -1,11 +1,11 @@
 import React from 'react';
-import Search from '../search/Search';
-import Review from '../review/Review';
+import Review from '../home/review/Review';
+import SimpleSearch from '../simpleSearch/SimpleSearch';
 
 function Side() {
   return (
     <div className="w-auto">
-      <Search />
+      <SimpleSearch />
       <Review />
     </div>
   );

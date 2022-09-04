@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 import Car from '../car/Car';
 import Featured from '../featured/Featured';
 import Hero from '../../hero/Hero';
-import Side from '../side/Side';
+import Side from '../../side/Side';
 import Highlight from '../highlight/Highlight';
 import Button from '../../button/Button';
 

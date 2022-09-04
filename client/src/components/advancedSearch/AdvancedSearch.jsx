@@ -1,14 +1,14 @@
+/* eslint-disable jsx-a11y/label-has-associated-control */
 /* eslint-disable react/jsx-one-expression-per-line */
 import React from 'react';
 import Button from '../button/Button';
-
 import Hero from '../hero/Hero';
+import Result from './Result';
 import Car from '../home/car/Car';
 import Highlight from '../home/highlight/Highlight';
-import Result from '../home/search/Result';
-import Side from '../home/side/Side';
+import Side from '../side/Side';
 
-function Search() {
+function AdvancedSearch() {
   return (
     <div className="">
       <Hero />
@@ -17,10 +17,7 @@ function Search() {
         style={{ marginTop: '-3rem' }}
       >
         <form className="flex justify-evenly bg-gray-200 py-7 px-5">
-          <label
-            htmlFor="search"
-            id="search"
-          >
+          <label htmlFor="search">
             <input
               className="py-2 w-72 rounded-sm px-1 placeholder:italic"
               type="text"
@@ -29,22 +26,12 @@ function Search() {
               style={{ border: '1px solid gray', outline: 'none' }}
             />
           </label>
-
-          <label
-            htmlFor="submit"
-            id="submit"
-          >
-            {/* <input
-              className="bg-red-700"
-              type="submit"
-              id="submit"
-            /> */}
-
+          <label htmlFor="submit">
             <Button
               type="submit"
               id="submit"
               color="bg-red-700"
-              content="Search a car"
+              content="Search your car"
             />
           </label>
         </form>
@@ -63,4 +50,4 @@ function Search() {
   );
 }
 
-export default Search;
+export default AdvancedSearch;

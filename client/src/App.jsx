@@ -3,7 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/navigation/Navbar';
 import Home from './components/home/home/Home';
-import Search from './components/search/Search';
+import AdvancedSearch from './components/advancedSearch/AdvancedSearch';
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
           />
           <Route
             path="/search"
-            element={<Search />}
+            element={<AdvancedSearch />}
           />
         </Routes>
       </Router>
