@@ -6,9 +6,9 @@ const cars = Array.from({ length: 42 });
 
 function Result() {
   return (
-    <div className="px-3 py-7">
+    <div className="px-3 py-7 w-100 mx-auto">
       <div>
-        <ul className="flex justify-between   uppercase">
+        <ul className="flex justify-between uppercase">
           <li className="text-2xl font-light text-gray-500">
             Top <span className="font-bold text-neutral-800">Brands</span>
           </li>
@@ -23,7 +23,7 @@ function Result() {
             >
               <li className="group-hover:text-white">
                 <NavLink
-                  to="profile"
+                  to="details"
                   className="hover:text-blue-800"
                 >
                   <ion-icon name="arrow-dropright" />
