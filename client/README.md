@@ -4,6 +4,10 @@
 
 ![Home Page](../client/src/assets/images/Sleecars-home.png)
 
+## Home Page
+
+![Search Page](../client/src/assets/images/Sleecars-search.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
