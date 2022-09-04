@@ -5,12 +5,14 @@ import Navbar from './components/navigation/Navbar';
 import Home from './components/home/home/Home';
 import AdvancedSearch from './components/advancedSearch/AdvancedSearch';
 import RentCar from './components/rent/RentCar';
+import Menu from './components/menu/Menu';
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Navbar />
+
         <Routes>
           <Route
             path="/"
@@ -23,6 +25,10 @@ function App() {
           <Route
             path="/rent"
             element={<RentCar />}
+          />
+          <Route
+            path="menu"
+            element={<Menu />}
           />
         </Routes>
       </Router>
